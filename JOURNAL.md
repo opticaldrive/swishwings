@@ -24,3 +24,5 @@ Looking for a STEMMA QT footprint on JLCPCB, haven't found one.
 
 
 <img width="769" height="849" alt="Screenshot 2025-07-19 at 5 14 40 PM" src="https://github.com/user-attachments/assets/810b43bc-b3a6-4ecb-8d69-fb7f9a4f7198" />
+
+Hours: 2.5 roughly, much more spent at night just thinking.
