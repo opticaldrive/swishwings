@@ -26,3 +26,36 @@ Looking for a STEMMA QT footprint on JLCPCB, haven't found one.
 <img width="769" height="849" alt="Screenshot 2025-07-19 at 5 14 40 PM" src="https://github.com/user-attachments/assets/810b43bc-b3a6-4ecb-8d69-fb7f9a4f7198" />
 
 Hours: 2.5 roughly, much more spent at night just thinking.
+
+
+# July 20: QWIIC and more eyeballing
+I spent a painful amount of time stuff eyeballing the size of a PAJ7620U2 sensor, heres my slack post about it:
+<img width="1016" height="710" alt="Screenshot 2025-07-20 at 7 16 06 PM" src="https://github.com/user-attachments/assets/4bd2bea8-303e-49fb-8c55-a4e23bf428ba" />
+Yes I'm a dark mode user lol
+I measured a  LOT of things and eyeballed the sensor size, its roughly 15x15mm.
+
+Spent a lot of time wiring QWIIC, asked someone on slack for help with footprints and found a built in one
+https://www.sparkfun.com/qwiic?<img width="794" height="657" alt="Screenshot 2025-07-20 at 7 17 24 PM" src="https://github.com/user-attachments/assets/c4dd3cc6-d3c7-4030-97a9-db9f6b645f57" />
+I kinda reversed the pinout several times, hope I got it right..
+
+Not sure how I want to manufacture this
+Definitely via JLCPCB, not sure if I'll use PCBA.
+LCSC shipping it might be expensive if i have to order the JST SH connectors on the side. (Connectors on the side, please!)
+
+Hours might seem inflated here but I actually spent this much time looking around for the right stuff 😭
+
+I thought about panelization but idk how to do that yet, but if i can do that and get PCBA that might be the best solution.<img width="565" height="374" alt="Screenshot 2025-07-20 at 7 20 18 PM" src="https://github.com/user-attachments/assets/751f5445-33d3-4ac7-b829-9718ea7b8835" />
+Here I wired up all the QWIIC things which was FUN /halfsarc<img width="833" height="482" alt="Screenshot 2025-07-20 at 7 20 41 PM" src="https://github.com/user-attachments/assets/a967a49c-3f87-449d-b18e-0343a8d3e4a5" />
+PCB is okay, routing is all done.
+
+Next I need to panelize and get reading for PCB production.
+Might make a 3d printed case? idk if the buttons on the xiao might get clicked or not.
+
+Also I was worried about the PAJ7620U2 sensors not working with 3v3 logic and power, so i did a few searches.
+I found a amazon page that said they could work, so i just have to hope they do :Sob:
+I also found a "confidential" datasheet from pixart(i think this is the manufacturer of the actual core sensor) that Seeed Studio leeked, haven't checked what it said about voltages again though.
+
+Anyways very fun and I really enjoyed doing this today
+
+
+Hours: 4.0 roughly - around 1 in the moring and 3 in the afternoon
