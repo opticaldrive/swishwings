@@ -59,3 +59,24 @@ Anyways very fun and I really enjoyed doing this today
 
 
 Hours: 4.0 roughly - around 1 in the moring and 3 in the afternoon
+
+# July 24: JLCPCB panels
+Today I spent like an hour on a support chat with JLCPCB to see if my PCB was manufacturable.
+I wanted to combine both the mainboard and the wing onto one PCB with mousebites or vscores so i could use PCBA for cheaper, but my luck didn't work out because JLCPCB said it would be charged more.
+
+I also went shopping on aliexpress and I've found the JST SH connectors so I don't need to use PCBA anymore!
+
+
+Hours: 1
+
+# July 25: Rounding, silkscreen PCB wrapup
+Spent a LONG time today in kicad
+<img width="563" height="587" alt="Screenshot 2025-07-25 at 4 52 32 PM" src="https://github.com/user-attachments/assets/fdbbaaf8-2b6d-4278-8652-20c235bcbbe1" />
+Might not look much different, but I spent a really long time trying to figure out how to round corners.
+I also had to reroute the wing because I messed up. The wing should be better now.
+
+Now I'm writing the BOM :)
+I should probably make a case but tbh I don't want to.
+Or maybe I want to, idk sorry
+
+Hours: 2.5
